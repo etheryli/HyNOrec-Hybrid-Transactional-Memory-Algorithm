@@ -1,6 +1,9 @@
 # HyNOrec-Hybrid-Transactional-Memory-Algorithm
 I did not know I wanted to live until I wanted to die
+
+
 It took a while to understand the paper because of the special abort after acquiring lock in commit of NOrec.
+
 I splitted into two (with and without read validate of the local counters) since I was not sure the paper meant the "polling" to include read validation. 
 Results are seen in Assignment 7 excel spreadsheets. 
 
